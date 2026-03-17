@@ -1,0 +1,40 @@
+{
+  "name": "local-shopfinder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zxing/browser": "^0.1.5",
+    "amazon-cognito-identity-js": "^6.3.16",
+    "assert": "^2.1.0",
+    "bootstrap": "^5.3.3",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "leaflet": "^1.9.4",
+    "process": "^0.11.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-qr-barcode-scanner": "^2.1.23",
+    "react-router-dom": "^6.22.3",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "vite": "^7.2.4"
+  }
+}
